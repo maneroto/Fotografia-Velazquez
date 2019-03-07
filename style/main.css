@@ -110,7 +110,7 @@ header h2
 
 .categoria
 {
-	-webkit-transition: all 1s;
+	-webkit-transition: color 1s, background 1s;
 	text-align: center;
 	height: 60vh;
 	margin-bottom: 8vh;
@@ -206,13 +206,13 @@ header h2
 
 #contacto form button
 {
-	transition: all 1.5s;
+	transition: color 1s, background 1s, border 1.5s;
 	color: #5588ff;
 	border: none;
 	border-radius: 10px;
-	font-size: 3vmax;
+	font-size: 2.5vmax;
 	width: 15vmax;
-	height: 4vmax;
+	height: 3vmax;
 	background-color: #fff;
 	margin-top: 5vh;
 	margin-bottom: 5vh;
@@ -277,7 +277,6 @@ button:hover
 
 footer
 {
-	-webkit-transition: all 1s;
 	margin-top: -5vmax;
 	color: #fff;
 	font-size: 3vmax;
