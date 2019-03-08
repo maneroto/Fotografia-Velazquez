@@ -44,7 +44,7 @@ Contact: maneroto@hotmail.com | maneroto58@gmail.com
 			</h2>
 		</header>
 		<section id = "categorias">
-			<div id = "bodas" class="categoria"> 
+			<div id = "bodas" class="categoria" onclick="openSlider('bodaSlider')"> 
 				<h3>Bodas</h3>
 				<img src="img/boda/boPor.jpg">
 				<p>
@@ -52,7 +52,11 @@ Contact: maneroto@hotmail.com | maneroto58@gmail.com
 					tempor incididunt ut labore et dolore magna aliqua. .
 				</p>
 			</div>
-			<div id = "bautizos" class="categoria"> 
+			<div class="galeria" id="bodaSlider">
+				<iframe src="src/boda.html" class="galeriaFrame"></iframe>
+				<div class="cerrarSlider" onclick="openSlider('bodaSlider')">cerrar</div>
+			</div>
+			<div id = "bautizos" class="categoria" onclick="openSlider('bautizoSlider')"> 
 				<h3>Bautizos</h3>
 				<img src="img/bautizo/baPor.jpg">
 				<p>
@@ -60,7 +64,11 @@ Contact: maneroto@hotmail.com | maneroto58@gmail.com
 					tempor incididunt ut labore et dolore magna aliqua. .
 				</p>
 			</div>
-			<div id ="XVs" class="categoria"> 
+			<div class="galeria" id="bautizoSlider">
+				<iframe src="src/boda.html" class="galeriaFrame"></iframe>
+				<div class="cerrarSlider" onclick="openSlider('bautizoSlider')">cerrar</div>
+			</div>
+			<div id ="XVs" class="categoria" onclick="openSlider('xvSlider')"> 
 				<h3>XV años</h3>
 				<img src="img/XVaños/xvPor.jpg">
 				<p>
@@ -68,7 +76,11 @@ Contact: maneroto@hotmail.com | maneroto58@gmail.com
 					tempor incididunt ut labore et dolore magna aliqua. .
 				</p>
 			</div>
-			<div id="eventos" class="categoria" >
+			<div class="galeria" id="xvSlider">
+				<iframe src="src/boda.html" class="galeriaFrame"></iframe>
+				<div class="cerrarSlider" onclick="openSlider('xvSlider')">cerrar</div>
+			</div>
+			<div id="eventos" class="categoria" onclick="openSlider('eventoSlider')">
 				<h3>Eventos</h3>
 				<img src="img/eventos/evPor.jpg">
 				<p>
@@ -76,7 +88,11 @@ Contact: maneroto@hotmail.com | maneroto58@gmail.com
 					tempor incididunt ut labore et dolore magna aliqua. .
 				</p>
 			</div>
-			<div id="sesPareja" class="categoria" >
+			<div class="galeria" id="eventoSlider">
+				<iframe src="src/boda.html" class="galeriaFrame"></iframe>
+				<div class="cerrarSlider" onclick="openSlider('eventoSlider')">cerrar</div>
+			</div>
+			<div id="sesPareja" class="categoria" onclick="openSlider('parejaSlider')">
 				<h3>Sesiones de pareja</h3>
 				<img src="img/pareja/parPor.jpg">
 				<p>
@@ -84,13 +100,21 @@ Contact: maneroto@hotmail.com | maneroto58@gmail.com
 					tempor incididunt ut labore et dolore magna aliqua. .
 				</p>
 			</div>
-			<div id="sesCasual" class="categoria" >
+			<div class="galeria" id="parejaSlider">
+				<iframe src="src/boda.html" class="galeriaFrame"></iframe>
+				<div class="cerrarSlider" onclick="openSlider('parejaSlider')">cerrar</div>
+			</div>
+			<div id="sesCasual" class="categoria" onclick="openSlider('casualSlider')">
 				<h3>Sesiones casuales</h3>
 				<img src="img/casual/casPor.jpg">
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. .
 				</p>
+			</div>
+			<div class="galeria" id="casualSlider">
+				<iframe src="src/boda.html" class="galeriaFrame"></iframe>
+				<div class="cerrarSlider" onclick="openSlider('casualSlider')">cerrar</div>
 			</div>
 		</section>
 		<section id = "experiencia">
@@ -126,12 +150,13 @@ Contact: maneroto@hotmail.com | maneroto58@gmail.com
 				<a href="https://api.whatsapp.com/send?phone=524271327515&text=Hola%20fotografía%20Velázquez"><div id="wa"><i class="fab fa-whatsapp"></i> <span class="rs">4271327515</span></div></a>
 				<a href="https://www.facebook.com/messages/t/emmanuel.antonio.965"><div id="fb"><i class="fab fa-facebook-square"></i><span class="rs">Velazquez FB</span></div></a>
 			</div>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14959.296409973585!2d-99.9962694!3d20.3901411!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x586423cd627da53c!2sVel%C3%A1zquez%2C+Fotograf%C3%ADa+y+Video+Profesional!5e0!3m2!1ses!2smx!4v1544502006960" frameborder="0" style="" allowfullscreen></iframe>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14959.296409973585!2d-99.9962694!3d20.3901411!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x586423cd627da53c!2sVel%C3%A1zquez%2C+Fotograf%C3%ADa+y+Video+Profesional!5e0!3m2!1ses!2smx!4v1544502006960" frameborder="0" style="" allowfullscreen id = "map"></iframe>
 		</section>
 
 		<footer>
 			Fotografía profesional Velázquez
 		</footer>
+		<script type="text/javascript" src="src/slider.js"></script>
 	</body>
 
 </html>
